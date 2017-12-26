@@ -6,7 +6,7 @@ class PigLatinize
     else
       i = 0
       until vowels.include?(word[i].downcase) == true
-
+        i += 1
       end
     end
   end
